@@ -14,14 +14,6 @@ header {
     align-items: center;
     padding: 10px;
 }
-.logo {
-    display: flex;
-    align-items: center;
-}
-.logo_img {
-    height: 10px;
-    margin-left: 10px;
-}
 
 /* Estils d'Ancles <a>Ancla</a> */
 a {
