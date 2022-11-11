@@ -18,7 +18,7 @@ header {
     display: flex;
     align-items: center;
 }
-.logo img {
+.logo_img {
     height: 10px;
     margin-left: 10px;
 }
