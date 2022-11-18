@@ -1,3 +1,9 @@
+/* Foto Header */
+.foto {
+    float: left;
+    padding-left: 3%
+
+}
 /* Estils del Cos */
 body {
     background-color: white;
