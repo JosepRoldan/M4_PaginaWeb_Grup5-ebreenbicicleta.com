@@ -1,40 +1,160 @@
 /* Estils del Cos */
 body {
-    background-color: white;
-    font-family: Helvetica;
-    margin: 0;
+  background-color: white;
+  font-family: Helvetica;
+  margin: 0;
 }
 
 /* Estils de Header */
 header {
-    display: flex;
-    min-height: 75px;
-    background-color: burlywood;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+  display: flex;
+  min-height: 75px;
+  background-color: burlywood;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: black;
+}
+
+/* Estils de Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: burlywood;
+  height: auto;
+  width: 100vw;
+  font-family: Helvetica;
+  padding-top: 40px;
+  color: black;
+}
+
+.top_footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.top_footer h3 {
+  height: 20px;
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.top_footer p {
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.bottom_footer {
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.bottom_footer p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+
+.bottom_footer b {
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 50;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.social a {
+  text-decoration: none;
+  color: black;
+}
+
+.social a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.social a:hover i {
+  color: aquamarine;
+  opacity: .6;
+}
+
+.facebook {
+  color: cornflowerblue;
+}
+
+.twitter {
+  color: darkcyan;
+}
+
+.instagram {
+  color: darkmagenta;
+}
+
+.youtube {
+  color: crimson;
 }
 
 /* Estils d'Ancles <a>Ancla</a> */
 a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
+
 nav a {
-    font-weight: 600;
-    padding-right: 10px;
+  font-weight: 600;
+  padding-right: 10px;
 }
+
 nav a:hover {
-    color: grey;
+  color: grey;
 }
 
 /* Configuració RESPONSIVE */
 @media (max-width:700px) {
-    /* Header */
-    header {
-        flex-direction: column;
-    }
-    nav {
-        padding: 10px 0px;
-    }
+
+  /* Header */
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 10px 0px;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+  }
+
+  .top_footer {
+    padding: 10px 0px;
+  }
+
+  .top_footer p {
+    padding: 30px 0px;
+  }
+
+  .bottom_footer {
+    padding: 10px 0px;
+  }
 }
