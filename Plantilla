@@ -9,7 +9,7 @@
   <link href="BS_CSS.css">
 </head>
 <main>
-  <div class="foto-top"><img src="https://www.deltacleta.cat/wp-content/uploads/ruta-punta-del-fangar-en-fatbike-deltacleta.jpg"</div>
+  <div class="foto-top"><img src="https://www.deltacleta.cat/wp-content/uploads/ruta-punta-del-fangar-en-fatbike-deltacleta.jpg"></div>
   <div><h1 class="titul-ruta">Titul de la ruta</h1></div>
   <div class="informacio-ruta"><h2>Aqui se descriu la ruta</h2></div>
 </main>
