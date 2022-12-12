@@ -24,13 +24,13 @@ nav {
 
 /* Estils de Footer */
 footer {
-  
+
   bottom: 0;
   left: 0;
   right: 0;
   background-color: burlywood;
   height: auto;
-  
+
   font-family: Helvetica;
   padding-top: 0px;
   color: black;
@@ -60,7 +60,7 @@ footer {
 }
 
 .bottom_footer {
-  
+
   padding: 20px 0;
   text-align: center;
 }
@@ -119,6 +119,21 @@ footer {
 
 .youtube {
   color: crimson;
+}
+
+/* Estils d'Ancles <a>Ancla</a> */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: grey;
 }
 
 /* Roger*/
