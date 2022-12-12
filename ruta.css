@@ -2,6 +2,26 @@ body {
   background-color: #8f5100;
 }
 
+/* Estils de Header */
+header {
+  display: flex;
+  min-height: 75px;
+  background-color: burlywood;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: black;
+}
+
+/* Header */
+header {
+  flex-direction: column;
+}
+
+nav {
+  padding: 10px 0px;
+}
+
 p,
 h1,
 h2,
