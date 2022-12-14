@@ -11,6 +11,21 @@ header {
   color: black;
 }
 
+/* Estils d'Ancles <a>Ancla</a> */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 10px;
+}
+
+nav a:hover {
+  color: grey;
+}
+
 /* Estils de Footer */
 footer {
   position:static;
