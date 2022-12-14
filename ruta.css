@@ -1,8 +1,87 @@
-body {
-  background-color: #8f5100;
+/* Estils de Header */
+header {
+  display: flex;
+  width: 100%;
+  top: 0;
+  position: static;
+  flex-wrap: wrap;
+  background-color: burlywood;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+}
+
+/* Estils de Footer */
+footer {
+  position:static;
+  bottom:0;
+  background-color: burlywood;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: Helvetica;
+  color: black;
+}
+
+.bottom_footer {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 1%;
+  width: 100vw;
+  padding: 10px 0;
+  text-align: center;
+  height: 1%;
+}
+
+.social {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 1rem 0;
+  padding: 0px;
+}
+
+.social li {
+  margin: 0 10px;
+}
+
+.social a {
+  text-decoration: none;
+  color: black;
+}
+
+.social a i {
+  font-size: 1.1rem;
+  transition: color .4s ease;
+}
+
+.social a:hover i {
+  color: aquamarine;
+  opacity: .6;
+}
+
+.facebook {
+  color: cornflowerblue;
+}
+
+.twitter {
+  color: darkcyan;
+}
+
+.instagram {
+  color: darkmagenta;
+}
+
+.youtube {
+  color: crimson;
 }
 
 /* Roger*/
+
+body {
+  background-color: #8f5100;
+}
 
 p,
 h1,
