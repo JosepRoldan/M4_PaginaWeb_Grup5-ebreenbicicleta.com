@@ -331,3 +331,24 @@ iframe {
   }
 
 }
+
+/* Configuracio RESPONSIVE */
+@media (max-width:700px) {
+
+  /* Header */
+  header {
+    flex-direction: column;
+  }
+
+  nav {
+    padding: 10px 0px;
+  }
+
+  /* Footer */
+  footer {
+    flex-direction: column;
+  }
+
+  .bottom_footer {
+    flex-direction: column;      }
+}
