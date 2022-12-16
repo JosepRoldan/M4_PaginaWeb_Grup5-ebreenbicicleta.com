@@ -380,7 +380,10 @@ iframe {
     /* height: 80%; */
     position: relative;
   }
-
+  .prev:hover,
+  .next:hover {
+    background-color: transparent;
+  }
 }
 
 /* Configuracio RESPONSIVE JOSEP */
