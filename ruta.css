@@ -3,14 +3,17 @@ header {
   display: flex;
   width: 100%;
   top: 0;
-  position: static;
+  position: fixed;
+  z-index: 10;
   flex-wrap: wrap;
-  background-color: rgb(117, 65, 0);
+  /*background-color: rgb(117, 65, 0);*/
+  background-color: rgb(16, 0, 117);
   justify-content: space-between;
   align-items: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: auto;
 }
 
 /* Estils d'Ancles <a>Ancla</a> */
@@ -32,7 +35,8 @@ nav a:hover {
 footer {
   position:static;
   bottom:0;
-  background-color: rgb(117, 65, 0);
+  /*background-color: rgb(117, 65, 0);*/
+  background-color: rgb(16, 0, 117);
   flex-wrap: wrap;
   width: 100%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -97,9 +101,14 @@ footer {
 /* Roger*/
 
 body {
-  background-color: #8f5100;
+  /*background-color: #8f5100;*/
+  background-color: #224c7c;
   margin: 0px;
 }
+
+h1 {
+  margin-top: 75px;
+  }
 
 p,
 h1,
@@ -118,27 +127,38 @@ ul,
   margin-left: 25%;
   margin-top: 10px;
   margin-bottom: 10px;
+  
 }
 
 .botoatras {
   
-  border-radius: 16px;
+  border-radius: 50px;
   border: 5px solid rgb(0, 0, 0);
-  background-color: rgb(156, 156, 156);
+  background-color: orange;
   margin-top: auto;
   text-align: center;
   float: left;
- 
+  display: inline-block;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
 }
 
 .botoseguent {
-  border-radius: 16px;
+  border-radius: 50px;
   border: 5px solid rgb(0, 0, 0);
-  background-color: rgb(156, 156, 156);
+  background-color: orange;
   margin-top: auto;
   text-align: center;
   float: right;
-  
+  display: inline-block;
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  padding: 5px;
 }
 
 .w3-round-xlarge {
@@ -327,7 +347,9 @@ iframe {
 
   /* Header */
   header {
-    flex-direction: column;
+    position: fixed;
+    
+    z-index: 10;
   }
 
   nav {
@@ -414,6 +436,15 @@ iframe {
   .prev:hover,
   .next:hover {
     background-color: transparent;
+  }
+
+  .botonsAtrasSeguent {
+    width: 80%;
+    text-align: center;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10%;
   }
 }
 
