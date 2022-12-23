@@ -364,7 +364,10 @@ iframe {
   .bottom_footer {
     flex-direction: column;      }
 
-  
+    .titol1 {
+      margin: 75px 0px 0px;
+      }
+
   h1 {
     font-size: 1.6em;
   }
