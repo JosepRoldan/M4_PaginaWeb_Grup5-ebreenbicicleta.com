@@ -18,7 +18,7 @@ header {
 
 /* Estils d'Ancles <a>Ancla</a> */
 a {
-  text-decoration: none;
+  /* text-decoration: none; */
   color: white;
 }
 
