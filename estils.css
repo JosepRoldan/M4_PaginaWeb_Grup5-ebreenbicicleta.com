@@ -20,7 +20,7 @@
 
     /* Estils de Footer */
     footer {
-      position:static;
+      position:absolute;
       bottom:0;
       background-color: burlywood;
       flex-wrap: wrap;
