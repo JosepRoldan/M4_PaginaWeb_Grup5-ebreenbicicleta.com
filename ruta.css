@@ -34,7 +34,7 @@ nav a:hover {
 
 /* Estils de Footer */
 footer {
-  position: static;
+  position: absolute;
   bottom: 0;
   /*background-color: rgb(117, 65, 0);*/
   background-color: rgb(16, 0, 117);
@@ -223,6 +223,12 @@ ul,
   width: 30%;
   margin-left: 25%;
   text-align: justify;
+}
+
+.descripcio-sobre {
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .itinerari {
@@ -456,7 +462,7 @@ iframe {
     margin-left: auto;
   }
 
-  
+
 }
 
 /* Configuracio RESPONSIVE JOSEP */
