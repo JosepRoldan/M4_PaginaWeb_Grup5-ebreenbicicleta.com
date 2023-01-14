@@ -110,6 +110,9 @@ body {
 .titol1 {
   margin: 75px 0px 0px;
 }
+.titol-sobre {
+  margin-left: 25%;
+}
 
 p,
 h1,
@@ -227,8 +230,8 @@ ul,
 
 .descripcio-sobre {
   position: relative;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 .itinerari {
