@@ -1,8 +1,12 @@
     /* Estils del Cos */
     body {
-      background-color: white;
-      font-family: Helvetica;
-      margin: 0;
+      /*background-color: #8f5100;*/
+      background-color: #224c7c;
+      margin: 0px;
+    }
+
+    table {
+      margin-left: 25%;
     }
 
     /* Estils de Header */
@@ -10,22 +14,37 @@
       display: flex;
       width: 100%;
       top: 0;
-      position: static;
+      position: fixed;
+      z-index: 10;
       flex-wrap: wrap;
-      background-color: burlywood;
+      /*background-color: rgb(117, 65, 0);*/
+      background-color: rgb(16, 0, 117);
       justify-content: space-between;
       align-items: center;
-      color: black;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      padding-left: 5%;
+      padding-right: 5%;
+      margin-bottom: auto;
+    }
+
+    p,
+    h1,
+    h2,
+    ul,
+    .titol-foto {
+      color: white;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     /* Estils de Footer */
     footer {
-      position:absolute;
-      bottom:0;
-      background-color: burlywood;
+      position: absolute;
+      bottom: 0;
+      /*background-color: rgb(117, 65, 0);*/
+      background-color: rgb(16, 0, 117);
       flex-wrap: wrap;
       width: 100%;
-      font-family: Helvetica;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       color: black;
     }
 
@@ -85,17 +104,19 @@
     }
 
     /*Estil del contingut*/
-    .imatge_rutes{
+    .imatge_rutes {
       width: 60%;
     }
-    .rutes{
+
+    .rutes {
       width: 39%;
     }
 
     /* Estils d'Ancles <a>Ancla</a> */
     a {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       text-decoration: none;
-      color: black;
+      color: white;
     }
 
     nav a {
@@ -125,5 +146,6 @@
       }
 
       .bottom_footer {
-        flex-direction: column;      }
+        flex-direction: column;
+      }
     }
