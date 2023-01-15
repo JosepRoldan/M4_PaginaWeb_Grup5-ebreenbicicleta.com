@@ -488,4 +488,8 @@ iframe {
   .bottom_footer {
     flex-direction: column;
   }
+
+  .titol1 {
+    margin-top: 115px;
+  }
 }
