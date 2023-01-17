@@ -133,11 +133,8 @@ ul,
 }
 
 .rutes {
-  margin-left: 40%;
-  margin-right: 40%;
-  object-fit: cover;
   text-align: center;
-  
+  display: grid;
 }
 
 
@@ -501,6 +498,9 @@ iframe {
     flex-direction: column;
   }
 
+  .titol1 {
+    margin-top: 115px;
+  }
   nav {
     padding: 10px 0px;
   }
